@@ -13,7 +13,7 @@ from tensorflow.keras.layers.experimental.preprocessing import StringLookup
 from tensorflow.keras.layers import Input, Reshape, Dense, Dropout, Bidirectional, LSTM, Flatten
 from tensorflow.keras.backend import ctc_decode
 from mobilenetv3 import MobileNetV3_Small
-from tensorflow.strings import reduce_join
+from tensorflow._api.v2.strings import reduce_join
 get_logger().setLevel(logging.ERROR)
 
 # class OCR:
