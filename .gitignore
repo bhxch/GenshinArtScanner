@@ -8,3 +8,6 @@ ArtScanner/artifacts/**
 ArtScanner/artifacts-all/**
 
 /.vscode
+.vscode/**
+**/.ipynb_checkpoints/**
+ArtScanner/data/artifacts*
